@@ -100,6 +100,12 @@ def send(cmd, channel, devname, test = False):
 			if not test:
 				increment_number()
 			codes.append(generatecode(ch, COMMAND_PAIR2))
+			if not test:
+				increment_number()
+			codes.append(generatecode(ch, COMMAND_PAIR3))
+			if not test:
+				increment_number()
+			codes.append(generatecode(ch, COMMAND_PAIR4))
 
 		if not test:
 			increment_number()
